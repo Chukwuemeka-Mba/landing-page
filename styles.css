@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 18px 50px;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: flex wrap;
+    width: 250px;
+}
+
+.content p {
+    margin-top: -10px;
+}
+
+.content button {
+    background: rgb(36, 124, 207);
+    color: white;
+    border: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 30px
+}
+
+.headr2 {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    flex-grow: 1;
+    width: 340px;
+    height: 200px;
+}
+
+.randoms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid rgb(36, 124, 207);
+    border-radius: 15px;
+    width: 130px;
+    height: 150px;
+}
+
+.ran {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.rans {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    width: 626px;
+}
+
+.quote {
+    font: 36px light italic ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding: 10px 30px;
+    background-color: rgb(236, 236, 236);
+    color: #1f2937;
+}
+
+.quote p {
+    width: 626px;
+}
+
+.quote .thor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23px;
+    margin: 50px 80px;
+    padding: 20px 70px;
+    background-color: #3882f6;
+    color: aliceblue;
+}
+
+.call {
+    width: 500px;
+}
+
+button {
+    padding: 10px 35px;
+    border-radius: 10px;
+    border-width: 0px;
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 10px;
+    background-color: #1F2937;
+    color: white;
+}
